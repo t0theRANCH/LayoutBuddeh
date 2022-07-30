@@ -5,9 +5,9 @@ A simple CLI written in Python which calculates the angles of a concrete pad usi
 sides and diagonals
 -------------------
 
-## Installation Instructions
+### Installation Instructions
 
-### Linux
+#### Linux
 1. Clone the repository
 2. Open a terminal in the directory you just cloned
 3. Run the following commands
@@ -21,7 +21,7 @@ To start the program in your terminal from anywhere, run:
 foo@bar:~$ layout-buddeh
 ```
 
-### Windows and OSX
+#### Windows and OSX
 
 For now, Windows and Mac users can just run the main.py file with
 Python from the terminal in the repository directory
