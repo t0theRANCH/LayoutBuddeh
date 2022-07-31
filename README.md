@@ -13,16 +13,12 @@ This CLI currently only requires Python 3.10 with no additional libraries
 ```console
 foo@bar:~$ git clone https://github.com/t0theRANCH/LayoutBuddeh
 foo@bar:~$ cd LayoutBuddeh
-foo@bar:~$ chmod +x linux-install.sh
-foo@bar:~$ ./linux-install.sh
+foo@bar:~$ chmod +x main.py
+foo@bar:~$ python3 main.py
 ```
 
-To start the program in your terminal from anywhere, run: 
-```console
-foo@bar:~$ layout-buddeh
-```
 
 #### Windows and OSX
 
-For now, Windows and Mac users can just run the main.py file with
-Python from the terminal in the repository directory
+Windows and Mac users can also run the main.py file with
+Python 3.10 from the terminal in the repository directory
