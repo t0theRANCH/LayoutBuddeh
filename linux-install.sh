@@ -9,9 +9,8 @@ mv diagram.txt ~/bin/layout-buddeh
 mv title.txt ~/bin/layout-buddeh
 
 # add new directory to path
-export PATH=$PATH":$HOME/bin/layout-buddeh"
-echo 'export PATH=$PATH":$HOME/bin/layout-buddeh"' >> .profile
-source .profile
+echo "export PATH=\"$PATH:$HOME/bin/layout-buddeh\"" >> ~/.profile
+source ~/.profile
 
 # delete downloaded folder
-rm -rf -- "$(pwd -P)" && cd ..
+rm -rf "$(pwd -P)" && cd ..

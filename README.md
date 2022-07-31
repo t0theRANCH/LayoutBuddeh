@@ -4,7 +4,7 @@ LAYOUT BUDDEH
 A simple CLI written in Python which calculates the angles of a concrete pad using only length measurements of the 
 sides and diagonals
 -------------------
-This CLI currently only requires Python with no additional libraries
+This CLI currently only requires Python 3.10 with no additional libraries
 
 
 ### Installation Instructions
